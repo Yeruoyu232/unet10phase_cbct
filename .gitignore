@@ -1,0 +1,30 @@
+# 权重、检查点
+*.pth
+*.ckpt
+*.pt
+checkpoints/
+
+# 医学数据
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.mhd
+*.raw
+
+# 日志、输出图、结果
+log/
+logs/
+*.log
+*.png
+*.jpg
+loss_figures/
+test_results/
+difference_results/
+fov_check/
+
+# 缓存
+__pycache__/
+*.pyc
+.venv/
+env/
